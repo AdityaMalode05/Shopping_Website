@@ -20,7 +20,7 @@ function displayProducts(category, products) {
         const productCard = `
             <div class="product-card">
                 <img src="${product.image}" alt="${product.title}" />
-                ${product.badge ? `<div class="badge">${product.badge}</div>` : ''}
+                ${product.badge_text ? `<div class="badge">${product.badge_text}</div>` : ''}
                 <div class="details">
                     <h3>${product.title}</h3>
                     <p>${product.vendor}</p>
